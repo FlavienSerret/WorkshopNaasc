@@ -14,18 +14,6 @@ Cela garantit un **suivi rigoureux, standardisé et traçable** du comportement 
 
 ---
 
-### 🗂️ Arborescence des dossiers
-
-charges_utile/
-├── rapport_d'analyse/
-│ └── Rapport_d'analyse_Template_CU.docx
-├── rapport_d'erreur/
-│ └── Rapport_d'erreur_Template_CU.docx
-└── README.md
-
-
----
-
 ### 📝 Instructions d'utilisation
 
 #### 1. Choisir le bon modèle
