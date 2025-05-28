@@ -1,31 +1,40 @@
 ---
-name: 🐛 Bug report
-about: Signaler un bug pour qu’on puisse le corriger plus rapidement
-title: "[BUG] "
+name: 🚨 Rapport d'erreur sur le satellite
+about: Signaler un rapport d'erreur !
+title: "[Rapport D'erreur] "
 labels: bug
 assignees: ''
 ---
 
-## Description du problème
+## Informations générales
 
-Décris clairement le bug rencontré.
+Date : [JJ/MM/AAAA]
+Expert CU : [Nom Prénom]
+Données analysées : Tm reçues le [JJ/MM/AAAA] 
 
-## Étapes pour reproduire
+## Anomalie détectée
 
-1. Aller à '...'
-2. Cliquer sur '....'
-3. Voir l'erreur
+[Description de l’anomalie observée, incluant les symptômes et conditions de survenue]
 
-## Comportement attendu
+## Impact Potentiel
 
-Décris ce que tu pensais que l'application devait faire.
+[Gravité de l'erreur, évaluation du risque pour la mission, les systèmes ou les opérations]
 
-## Captures d'écran
+## Actions immédiates recommandées
+ 
+•[Mesure 1, ex. : suspendre certaines opérations]
+•[Mesure 2, ex. : consulter un spécialiste technique]
+•[Mesure 3, ex. : lancer une procédure de sécurité]
 
-Si possible, ajoute une capture d’écran.
 
-## Environnement
+## Graphiques 
 
-- Système d’exploitation :
-- Navigateur / Version :
-- Version de l'application :
+[Insérer ici les graphiques détaillés de l’analyse]
+
+## Discussion nécessaire avec : 
+
+[Nom du superviseur]
+
+## Commentaires complémentaires 
+
+[Ajouts, remarques, observations contextuelles ou pistes de suivi – facultatif]
