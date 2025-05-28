@@ -1,16 +1,15 @@
 ---
 name: 🚨 Rapport d'erreur sur le satellite
 about: Signaler un rapport d'erreur !
-title: "[Rapport D'erreur] "
+title: "[Rapport D'erreur [NOM CU + DATE [JJ/MM/AAAA] "
 labels: bug
 assignees: ''
 ---
 
 ## Informations générales
 
-Date : [JJ/MM/AAAA]
 Expert CU : [Nom Prénom]
-Données analysées : Tm reçues le [JJ/MM/AAAA] 
+Données analysées : TM reçues le [JJ/MM/AAAA] 
 
 ## Anomalie détectée
 
