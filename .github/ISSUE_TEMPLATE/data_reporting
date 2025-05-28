@@ -1,0 +1,11 @@
+---
+name: Data Reporting Required
+about: Data Reporting is required from the CM 
+title: "{{yyymmdd-hhMM}} - Data Reporting {{System}} "
+labels: DataReporting
+assignees: ''
+---
+
+## Informations générales
+
+  Data from Day XX is there
