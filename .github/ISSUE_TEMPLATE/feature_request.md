@@ -1,9 +1,10 @@
 ---
-name: ✨ Demande de fonctionnalité
+name: "✨ Demande de fonctionnalité"
 about: Proposer une idée ou une amélioration
 title: "[FEATURE] "
 labels: enhancement
 assignees: ''
+
 ---
 
 ## Description de la fonctionnalité

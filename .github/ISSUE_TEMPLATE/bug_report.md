@@ -1,9 +1,10 @@
 ---
-name: 🚨 Rapport d'erreur sur le satellite
+name: "\U0001F6A8 Rapport d'erreur sur le satellite"
 about: Signaler un rapport d'erreur !
 title: "{{yyymmdd-hhMM}} - Incident {{System}} - Description"
 labels: incident
 assignees: ''
+
 ---
 
 ## Informations générales
