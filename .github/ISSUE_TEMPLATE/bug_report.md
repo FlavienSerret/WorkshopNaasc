@@ -1,8 +1,8 @@
 ---
 name: 🚨 Rapport d'erreur sur le satellite
 about: Signaler un rapport d'erreur !
-title: "[Rapport D'erreur [NOM CU + DATE [JJ/MM/AAAA] "
-labels: bug
+title: "{{yyymmdd-hhMM}} - Incident {{System}} - Description"
+labels: incident
 assignees: ''
 ---
 
