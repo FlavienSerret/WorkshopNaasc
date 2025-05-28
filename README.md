@@ -8,7 +8,7 @@ Ce dossier contient les **modèles de documents** à utiliser pour le **suivi te
 
 Les documents permettent de :
 - **Documenter les analyses techniques** (dossier `rapport_d'analyse/`)
-- **Formaliser les erreurs ou incidents détectés**, leur impact et les mesures urgentes à prendre (dossier `rapport_d'erreur/`)
+- **Formaliser les erreurs ou incidents détectés**, leur impact et les mesures urgentes à créer avec les Issues.
 
 Cela garantit un **suivi rigoureux, standardisé et traçable** du comportement des charges utiles.
 
@@ -18,7 +18,7 @@ Cela garantit un **suivi rigoureux, standardisé et traçable** du comportement 
 
 #### 1. Choisir le bon modèle
 - 📊 Analyse sans anomalie critique → `rapport_d'analyse/Rapport_d'analyse_Template_CU.docx`
-- ⚠️ Anomalie détectée → `rapport_d'erreur/Rapport_d'erreur_Template_CU.docx`
+- ⚠️ Anomalie détectée → `Création d'une Issue`
 
 #### 2. Compléter le rapport
 - Renseigner **date, expert, données analysées, comportement ou anomalie, recommandations**
@@ -27,11 +27,9 @@ Cela garantit un **suivi rigoureux, standardisé et traçable** du comportement 
 #### 3. Exporter en PDF
 - Nommer le fichier de manière claire :
   - `CU[Numéro]_Rapport_Analyse_[Date].pdf`
-  - `CU[Numéro]_Erreur_[Date].pdf`
 
 #### 4. Déclaration d’une erreur
 En cas d’erreur détectée :
-- Remplir un rapport d’erreur (voir ci-dessus)
 - **Créer une *issue* dans l’espace de suivi** pour notifier le problème et joindre le rapport PDF
 - Notifier le superviseur concerné
 
