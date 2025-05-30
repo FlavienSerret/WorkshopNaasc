@@ -1,0 +1,42 @@
+name: "✨ Demande de fonctionnalité"
+description: Proposer une idée ou une amélioration
+title: "[FEATURE] "
+labels: ["enhancement"]
+assignees: []
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: 📌 Description de la fonctionnalité
+      description: Explique clairement ce que tu veux ajouter ou améliorer.
+      placeholder: "Décris la fonctionnalité attendue ou l'amélioration souhaitée"
+    validations:
+      required: true
+
+  - type: textarea
+    id: utilite
+    attributes:
+      label: 🎯 Pourquoi est-ce utile ?
+      description: Dis en quoi cela améliore l’expérience utilisateur ou répond à un besoin.
+      placeholder: "Quel est le bénéfice attendu pour les utilisateurs ou le projet ?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 🔁 Alternatives envisagées
+      description: Y a-t-il une autre solution à laquelle tu as pensé ?
+      placeholder: "Autres approches ou idées similaires ?"
+    validations:
+      required: false
+
+  - type: textarea
+    id: contexte
+    attributes:
+      label: 🧩 Contexte supplémentaire
+      description: Ajoute toute autre information utile.
+      placeholder: "Contexte, exemple d'utilisation, captures d’écran, etc."
+    validations:
+      required: false
