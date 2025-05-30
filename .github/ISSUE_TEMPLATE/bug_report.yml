@@ -66,7 +66,7 @@ body:
   - type: input
     id: superviseur
     attributes:
-      label: 🤝 Discussion nécessaire avec :
+      label: 🤝 Discussion nécessaire avec ?
       description: Nom de la personne ou du responsable à notifier
       placeholder: "Nom du superviseur"
     validations:
