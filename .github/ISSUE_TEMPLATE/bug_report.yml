@@ -47,9 +47,10 @@ body:
       label: 🚑 Actions immédiates recommandées
       description: Liste des actions urgentes à envisager
       placeholder: |
-        • Mesure 1 : suspendre certaines opérations  
-        • Mesure 2 : consulter un spécialiste technique  
-        • Mesure 3 : lancer une procédure de sécurité
+        - Mesure 1 : suspendre certaines opérations
+        - Mesure 2 : consulter un spécialiste technique
+        - Mesure 3 : lancer une procédure de sécurité
+
     validations:
       required: false
 
