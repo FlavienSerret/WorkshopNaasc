@@ -7,7 +7,7 @@ Ce dossier contient les **modèles de documents** à utiliser pour le **suivi te
 ### 📌 Objectif
 
 Les documents permettent de :
-- **Documenter les analyses techniques** (dossier `rapport_d'analyse/`)
+- **Documenter les analyses techniques**
 - **Formaliser les erreurs ou incidents détectés**, leur impact et les mesures urgentes à créer avec les Issues.
 
 Cela garantit un **suivi rigoureux, standardisé et traçable** du comportement des charges utiles.
@@ -17,16 +17,13 @@ Cela garantit un **suivi rigoureux, standardisé et traçable** du comportement 
 ### 📝 Instructions d'utilisation
 
 #### 1. Choisir le bon modèle
-- 📊 Analyse sans anomalie critique → `rapport_d'analyse/Rapport_d'analyse_Template_CU.docx`
+- 📊 Analyse sans anomalie critique → `Création d'une Issue`
 - ⚠️ Anomalie détectée → `Création d'une Issue`
 
 #### 2. Compléter le rapport
 - Renseigner **date, expert, données analysées, comportement ou anomalie, recommandations**
 - Ajouter les **graphiques d’analyse** si nécessaire
 
-#### 3. Exporter en PDF
-- Nommer le fichier de manière claire :
-  - `CU[Numéro]_Rapport_Analyse_[Date].pdf`
 
 #### 4. Déclaration d’une erreur
 En cas d’erreur détectée :
@@ -37,7 +34,6 @@ En cas d’erreur détectée :
 
 ### 📣 Bonnes pratiques
 
-- Toujours **archiver** le PDF dans le système documentaire une fois validé
 - Respecter le format des rapports pour une homogénéité dans le suivi
 - En cas de doute ou de changement de procédure, **consulter le référent**
 
