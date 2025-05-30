@@ -1,0 +1,81 @@
+name: "🚨 Rapport d'erreur sur le satellite"
+description: Signaler un incident ou une anomalie critique détectée sur le système
+title: "{{yyymmdd-hhMM}} - Incident {{System}} - Description"
+labels: ["incident"]
+assignees: []
+
+body:
+  - type: input
+    id: expert
+    attributes:
+      label: 👨‍🔧 Expert CU
+      description: Nom et prénom de la personne en charge de l'analyse
+      placeholder: "Nom Prénom"
+    validations:
+      required: true
+
+  - type: input
+    id: donnees
+    attributes:
+      label: 📦 Données analysées
+      description: Date de réception des TM utilisées pour l’analyse
+      placeholder: "TM reçues le JJ/MM/AAAA"
+    validations:
+      required: true
+
+  - type: textarea
+    id: anomalie
+    attributes:
+      label: ⚠️ Anomalie détectée
+      description: Décrire l’anomalie observée, les symptômes, le contexte et les conditions
+      placeholder: "Description complète de l'anomalie"
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: 💥 Impact potentiel
+      description: Gravité estimée, conséquences sur les opérations ou le système
+      placeholder: "Quel est le risque pour la mission ou le système ?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: actions
+    attributes:
+      label: 🚑 Actions immédiates recommandées
+      description: Liste des actions urgentes à envisager
+      placeholder: |
+        • [Exemple] Suspendre certaines opérations
+        • [Exemple] Contacter un spécialiste
+        • [Exemple] Lancer une procédure d’urgence
+    validations:
+      required: false
+
+  - type: textarea
+    id: graphiques
+    attributes:
+      label: 📈 Graphiques
+      description: Lien ou description des visuels associés à l’analyse
+      placeholder: "Insérer des graphiques, captures ou liens vers des visualisations"
+    validations:
+      required: false
+
+  - type: input
+    id: superviseur
+    attributes:
+      label: 🤝 Discussion nécessaire avec :
+      description: Nom de la personne ou du responsable à notifier
+      placeholder: "Nom du superviseur"
+    validations:
+      required: false
+
+  - type: textarea
+    id: commentaires
+    attributes:
+      label: 🗒️ Commentaires complémentaires
+      description: Ajouts, remarques contextuelles ou autres observations utiles
+      placeholder: "Informations supplémentaires ou pistes de suivi"
+    validations:
+      required: false
