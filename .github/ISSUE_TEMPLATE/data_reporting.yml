@@ -8,4 +8,84 @@ assignees: ''
 
 ## Informations générales
 
-  Data from Day XX is there
+name: 📊 Fiche d’analyse CU
+description: Remplir une fiche d’analyse basée sur les données d’un comportement système
+title: "[ANALYSE] - "
+labels: ["analyse", "fiche-cu"]
+body:
+  - type: input
+    id: date
+    attributes:
+      label: 📅 Date
+      description: Date de rédaction de la fiche
+      placeholder: "JJ/MM/AAAA"
+    validations:
+      required: true
+
+  - type: input
+    id: expert
+    attributes:
+      label: 👤 Expert CU
+      description: Nom et prénom de l’analyste
+      placeholder: "Nom Prénom"
+    validations:
+      required: true
+
+  - type: input
+    id: donnees
+    attributes:
+      label: 🗂️ Données analysées
+      description: Date de réception des données (TM)
+      placeholder: "TM reçues le JJ/MM/AAAA"
+    validations:
+      required: true
+
+  - type: textarea
+    id: comportement
+    attributes:
+      label: 👁️ Comportement observé
+      description: Décrire brièvement le comportement constaté
+      placeholder: "Description concise"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: etat
+    attributes:
+      label: 🔍 État du système
+      description: Sélectionner le niveau de criticité
+      options:
+        - Normal
+        - Avertissement léger
+        - À surveiller
+        - Danger
+    validations:
+      required: true
+
+  - type: textarea
+    id: recommandations
+    attributes:
+      label: ✅ Recommandations
+      description: Mesures à prendre ou vérifications à effectuer
+      placeholder: "Liste de recommandations..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: graphiques
+    attributes:
+      label: 📈 Graphiques
+      description: Lien(s) ou description(s) des graphiques associés
+      placeholder: "Inclure des liens ou captures des graphiques"
+    validations:
+      required: false
+
+  - type: textarea
+    id: commentaires
+    attributes:
+      label: 🗨️ Commentaires
+      description: Observations ou remarques complémentaires
+      placeholder: "Commentaires additionnels"
+    validations:
+      required: false
+
