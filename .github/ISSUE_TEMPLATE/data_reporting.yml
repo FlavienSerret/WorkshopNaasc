@@ -1,6 +1,6 @@
 name: 📊 Fiche d’analyse CU
 description: Remplir une fiche d’analyse basée sur les données d’un comportement système
-title: "[ANALYSE] - "
+title: "{{yyymmdd-hhMM}} - Analyse {{System}} - Description"
 labels: ["analyse", "fiche-cu"]
 body:
   - type: input
