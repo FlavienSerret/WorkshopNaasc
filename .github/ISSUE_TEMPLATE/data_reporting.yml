@@ -1,13 +1,3 @@
----
-name: Data Reporting Required
-about: Data Reporting is required from the CM 
-title: "{{yyymmdd-hhMM}} - Data Reporting {{System}} "
-labels: DataReporting
-assignees: ''
----
-
-## Informations générales
-
 name: 📊 Fiche d’analyse CU
 description: Remplir une fiche d’analyse basée sur les données d’un comportement système
 title: "[ANALYSE] - "
